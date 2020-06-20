@@ -1,0 +1,39 @@
+.jumbo-tron{
+    padding: 1rem;
+}
+
+
+
+@include media-breakpoint-up(sm) { 
+
+    .jumbo-tron{
+        .btn-outline-secondary{
+            font-size: 90%;
+        }
+    }
+
+
+}
+
+@include media-breakpoint-up(md) { 
+
+    .jumbo-tron{
+        .btn-outline-secondary{
+            font-size: 95%;
+        }
+    }
+
+
+}
+
+
+@include media-breakpoint-up(lg) { 
+
+    .jumbo-tron{
+        .btn-outline-secondary{
+            font-size: 1.25rem;
+        }
+    }
+
+
+}
