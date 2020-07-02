@@ -1,10 +1,10 @@
-# Crowstart W4-B4 Kit
+# Project_scss_website
 ---
 This is a very basic starter kit for the project with Bootstrap 4 as a CSS framework and Webpack 4 as a module bundler.
 
 ## Table of Contents
 ---
-- [Crowstart W4-B4 Kit](#Crowstart-W4-B4-Kit)
+- [Project_scss_website](#Project_scss_website)
 - [Table of Contents](#table-of-contents)
 - [About the Project](#about-the-project)
 - [Status](#status)
@@ -125,12 +125,12 @@ The main benefit is creating separate files in separate folders, which is excell
 
 ## Getting Started
 ---
-This section provide instructions for other developers how to use Crowstart W4-B4 Kit (Webpack 4 & Bootstrap 4)
+This section provide instructions for other developers how to build a project.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 - If needed, [install](http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm) `node` and `npm` (Node Package Manager).
-- Clone this repo with `git clone https://github.com/crowscript/Crowstart-W4-B4-Kit.git` or download the zip. For this step, use npm terminal.
+- Clone this repo or download the zip. For this step, use npm terminal.
 - In terminal, `cd` to the folder containing your project. Alternatively, you can type `cd ` and drag the location of the folder into your terminal and hit enter.
 - In terminal, type `npm install`. If (and _only_ if) `npm install` isn't working, try `sudo npm install`. This should install all [dependencies](#dependencies).
 - In terminal, `npm run start` for server start (server itself won't to make dist folder, but all changes is visiable in browser) or/and enter `npm run build` to make dist folder.
@@ -158,15 +158,6 @@ What things you need to install the software and how to install them:
 How to install the requirements.
 
 `npm install`
-
-**tl;dr**: [Download Crowstart W4-B4 Kit](https://github.com/crowscript/Crowstart-W4-B4-Kit.git) and run `npm install` in that directory to get started.
-
-To take advantage of Crowstart W4-B4 Kit you need to:
-
-1. Get a copy of the code.
-2. Install the dependencies if you don't already have them.
-3. Modify the application to your liking.
-4. Deploy your production code.
 
 
 ### Dependencies
@@ -209,7 +200,7 @@ npm install
 
 ## How to Use
 ---
-Open in your favorite code editor folder **Crowstart-W4-B4-Kit** and start editing files in `src` folder.
+Open in your favorite code editor folder **Project_scss_website** and start editing files in `src` folder.
 If you want to change something in Webpack
 
 ### webpack.config.js
@@ -286,7 +277,7 @@ Modernizr does three things:
 
 ## Authors
 ---
-* **Stanislav Vranic** - *Web Developer* - [@crowscript](http://crowscript.com)
+* **Bojan Bosnic** - *Web Developer* 
 
 ## License
 ---
