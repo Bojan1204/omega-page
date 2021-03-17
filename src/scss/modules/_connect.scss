@@ -1,30 +1,57 @@
 .social{
-    font-size: 4.5em;
+    font-size: 3.5em;
     padding: 3rem;
     text-decoration: none;
 
     a{
         text-decoration: none;
+        margin: 0 50px 20px;
+        
+        &:hover{
+            .facebook{
+            
+            -webkit-text-stroke-width: none;
+            -webkit-text-stroke-color: transparent;
+                color: #3b5998;
+                
+            }
+            .twitter{
+                 -webkit-text-stroke-width: none;
+                 -webkit-text-stroke-color: transparent;
+                color: #00aced;
+                
+            }
+            .github{
+                 -webkit-text-stroke-width: none;
+                -webkit-text-stroke-color: transparent;
+                color: #000;
+                
+            }
+            .instagram{
+                 -webkit-text-stroke-width: none;
+                 -webkit-text-stroke-color: transparent;
+                color: #517fa4;
+                
+            }
+            .youtube{
+                 -webkit-text-stroke-width: none;
+                -webkit-text-stroke-color: transparent;
+                color: #bb0000;
+            }
+        }
+        
+        
+        i{
+            color: transparent;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: rgb(0, 0, 0);
+
+        }
+      
     }
-.facebook{
-    color: #3b5998;
-    margin-right: 4rem;
-}
-.twitter{
-    color: #00aced;
-    margin-right: 4rem;
-}
-.github{
-    color: #000;
-    margin-right: 4rem;
-}
-.instagram{
-    color: #517fa4;
-    margin-right: 4rem;
-}
-.youtube{
-    color: #bb0000;
-}
+
+    
+
 
 }
 

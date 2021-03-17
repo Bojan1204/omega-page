@@ -1,0 +1,36 @@
+.navbar{
+
+    background-color: #2e2e2e;
+    
+}
+
+
+.header{
+    background-image: url('../img/to-primjer-5.jpg');
+    // background-size: cover;
+    height: 100vh;
+    color: #fff;
+    
+   
+    .arrow-container {
+        width: 25px;
+        animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        cursor: pointer;
+        height: 20px;
+     
+      .arrow{
+          color: #fff;
+          font-size: 24px;
+      }
+     
+      
+      @keyframes bounce {
+      50% {
+          transform: translateY(-15px);
+        }
+      }
+      
+      
+    }
+
+}

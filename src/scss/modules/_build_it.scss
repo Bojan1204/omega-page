@@ -1,0 +1,23 @@
+.Opportunities{
+  
+ img{
+    max-width: 80%;
+ }
+
+   .border-hover{
+    padding: 20px;
+    height: 200px;
+    margin: 10px;
+    width: calc(100% - 210px);
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 15px;
+    color: rgb(90, 90, 90);
+    transition: 0.2s ease-in-out;
+    
+       &:hover{
+            color: #fff;
+            background-color: red;
+            
+       }
+   }
+}

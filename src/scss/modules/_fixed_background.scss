@@ -1,6 +1,15 @@
 .fun{
+    border: 1px solid #000;
     width: 100%;
+    padding: 10px;
+    text-transform: capitalize;
     margin-bottom: 2rem;
+    transition: 0.2s ease-in-out;
+
+    &:hover{
+        background: #2e2e2e;
+    color: white;
+    }
 .gif{
     max-width: 100%;
 }
