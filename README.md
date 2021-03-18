@@ -1,10 +1,16 @@
 # Project_scss_website
 ---
 This is a very basic starter kit for the project with Bootstrap 4 as a CSS framework and Webpack 4 as a module bundler.
+### what I need to do
+- change font
+- margin in some stuff in mobile resolution
+- I must change read.me and some of commit who is not written correctly
+- i must change name of project  in package.json
+- i must put some other logo  
 
 ## Table of Contents
 ---
-- [Project_scss_website](#Project_scss_website)
+- [omega-page](#omega-page)
 - [Table of Contents](#table-of-contents)
 - [About the Project](#about-the-project)
 - [Status](#status)
@@ -125,7 +131,7 @@ The main benefit is creating separate files in separate folders, which is excell
 
 ## Getting Started
 ---
-This section provide instructions for other developers how to build a project.
+This section provide instructions for other developers how to build the project.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -158,6 +164,7 @@ What things you need to install the software and how to install them:
 How to install the requirements.
 
 `npm install`
+
 
 
 ### Dependencies
@@ -200,7 +207,7 @@ npm install
 
 ## How to Use
 ---
-Open in your favorite code editor folder **Project_scss_website** and start editing files in `src` folder.
+Open in your favorite code editor folder **omega-page** and start editing files in `src` folder.
 If you want to change something in Webpack
 
 ### webpack.config.js
@@ -270,10 +277,6 @@ Modernizr does three things:
 <![endif]-->
 ```
 
-## Changelog
-
-**v1.0**
-	- Just the basic version, in the next versions expect more features ;-)
 
 ## Authors
 ---
@@ -281,7 +284,9 @@ Modernizr does three things:
 
 ## License
 ---
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-[Choose the License](https://choosealicense.com/)
+
+## Credits
+---
+Original Author of theme - @crowscript
 
 **[Back to top](#table-of-contents)**

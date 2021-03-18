@@ -6,7 +6,7 @@
     a{
         text-decoration: none;
         margin: 0 50px 20px;
-        
+       
         &:hover{
             .facebook{
             
@@ -42,6 +42,7 @@
         
         
         i{
+            transition: 0.2s ease-in-out;
             color: transparent;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: rgb(0, 0, 0);

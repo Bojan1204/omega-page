@@ -9,7 +9,7 @@
 .size-example{
     @include media-breakpoint-up(xl){
 
-    // height: 150px;
+  
     padding: 25px 12.5px;
         
     }
@@ -24,11 +24,17 @@
     transition: 0.5s;
 
     &:hover{
+        background-color: #2e2e2e;
+        color: #fff;
         -webkit-box-shadow: 1px 0px 31px -7px rgba(0,0,0,0.75);
         -moz-box-shadow: 1px 0px 31px -7px rgba(0,0,0,0.75);
         box-shadow: 1px 0px 31px -7px rgba(0,0,0,0.75);
         transition: 0.2s;
+
+      
     }
+
+ 
 
   
 

@@ -51,7 +51,8 @@ $font-family-sans-fallback:   'Arial', sans-serif;
 // @requires - `$font-family-sans-fallback`
 
 $font-family-sans:            'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
-
+$font-family-bold:     'OpenSans-Bold', $font-family-sans;
+$font-family-regular:       'OpenSans-Regular', $font-family-sans;
 // $font-family-serif
 //
 // Define font stack used for serifs.
@@ -74,7 +75,7 @@ $font-family-monospace:       'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Ver
 //
 // $font-family-display - {list}
 
-$font-family-display:         $font-family-sans;
+$font-family-display:         $font-family-bold;
 
 // $font-family-default
 //
@@ -83,4 +84,4 @@ $font-family-display:         $font-family-sans;
 // $font-family-default - {string}
 // @requires - `$font-family-sans`
 
-$font-family-default:         $font-family-sans;
+$font-family-default:         $font-family-regular;
