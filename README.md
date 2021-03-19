@@ -1,12 +1,6 @@
 # Project_scss_website
 ---
 This is a very basic starter kit for the project with Bootstrap 4 as a CSS framework and Webpack 4 as a module bundler.
-### what I need to do
-- change font
-- margin in some stuff in mobile resolution
-- I must change read.me and some of commit who is not written correctly
-- i must change name of project  in package.json
-- i must put some other logo  
 
 ## Table of Contents
 ---
